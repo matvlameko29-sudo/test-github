@@ -6,4 +6,5 @@ def create_abbreviation(text):
             abbreviation += word[0].upper()
     return abbreviation
 print(create_abbreviation("New York City"))  # NYC
+
 print(create_abbreviation("Yanka Kupala State University of Grodno"))  # YKSUG
